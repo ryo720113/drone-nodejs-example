@@ -2,5 +2,5 @@ pipeline:
   frontend:
     image: node:8.3.0
     commands:
-      - echo frontend
-      - exit 1
+      - yarn install
+      - yarn test
